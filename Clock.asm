@@ -67,7 +67,7 @@ Proc PrintTime
 	mov ah, 72h
 	stosw
 	
-	;double dot printing
+	;colons printing
 	mov al, ':'
 	mov ah, 70h
 	stosw
@@ -88,7 +88,7 @@ Proc PrintTime
 	mov ah, 71h
 	stosw
 	
-	;double dot printing
+	;colons printing
 	mov al, ':'
 	mov ah, 70h
 	stosw
@@ -110,4 +110,5 @@ Proc PrintTime
 	stosw
 	ret
 endp
+
 END start
